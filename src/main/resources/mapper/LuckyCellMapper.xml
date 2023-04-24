@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.agsl.onlinesheet.mapper.LuckyCellMapper">
+
+    <insert id="saveOrUpdate">
+        INSERT INTO "public"."tb_lucky_cell"
+        ("index", "user_info", "json_body")
+        VALUES
+        (#{param.index}, #{param.userInfo}, #{param.jsonBody})
+        on conflict(index,user_info)
+        DO update set
+            index = EXCLUDED.index,
+            user_info = EXCLUDED.user_info,
+            json_body = EXCLUDED.json_body
+    </insert>
+
+</mapper>

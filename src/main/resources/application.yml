@@ -1,0 +1,29 @@
+server:
+  compression:
+    enabled: true
+    mime-types: application/json
+  port: 1511
+spring:
+  profiles:
+    active: '@spring.profiles.active@'
+  datasource:
+    druid:
+      initial-size: 10
+      min-idle: 10
+      max-active: 300
+      max-wait: 60000
+      time-between-eviction-runs-millis: 2000
+      min-evictable-idle-time-millis: 600000
+      max-evictable-idle-time-millis: 900000
+      validation-query: select 1
+      test-while-idle: true
+      test-on-borrow: false
+      test-on-return: false
+      keep-alive: true
+      phy-max-use-count: 500
+
+mybatis-plus:
+  mapper-locations: classpath*:/mapper/*.xml, classpath*:/mapper/*/*.xml
+  configuration:
+    map-underscore-to-camel-case: true
+    jdbc-type-for-null: null

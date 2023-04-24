@@ -1,0 +1,11 @@
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl #开启SQL日志打印
+
+#开发库地址
+spring:
+  datasource:
+    druid:
+      url: jdbc:postgresql://10.206.222.8:5432/hrmwv2?currentSchema=public
+      username: postgres
+      password: Axpgadmin12#$

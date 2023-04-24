@@ -1,0 +1,60 @@
+2023-04-24 08:49:21.679 [main] INFO  com.agsl.onlinesheet.OnlinesheetApplication - Starting OnlinesheetApplication using Java 1.8.0_242 on HomeLander with PID 17732 (E:\anxinProjects\onlinesheet\target\classes started by liuyong in E:\anxinProjects\onlinesheet)
+2023-04-24 08:49:21.684 [main] INFO  com.agsl.onlinesheet.OnlinesheetApplication - The following 1 profile is active: "dev"
+2023-04-24 08:49:22.288 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 1511 (http)
+2023-04-24 08:49:22.294 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-1511"]
+2023-04-24 08:49:22.294 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-04-24 08:49:22.294 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+2023-04-24 08:49:22.389 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-04-24 08:49:22.390 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 680 ms
+2023-04-24 08:49:22.461 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2023-04-24 08:49:22.852 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2023-04-24 08:49:23.175 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-1511"]
+2023-04-24 08:49:23.185 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 1511 (http) with context path ''
+2023-04-24 08:49:23.190 [main] INFO  com.agsl.onlinesheet.OnlinesheetApplication - Started OnlinesheetApplication in 1.807 seconds (JVM running for 2.435)
+2023-04-24 09:26:30.626 [http-nio-1511-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-24 09:26:30.626 [http-nio-1511-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-04-24 09:26:30.627 [http-nio-1511-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2023-04-24 10:05:34.452 [main] INFO  com.agsl.onlinesheet.OnlinesheetApplication - Starting OnlinesheetApplication using Java 1.8.0_271 on Benja with PID 4704 (D:\Local\workspace-002\onlinesheet\target\classes started by Benja in D:\Local\workspace-002\onlinesheet)
+2023-04-24 10:05:34.454 [main] INFO  com.agsl.onlinesheet.OnlinesheetApplication - The following 1 profile is active: "dev"
+2023-04-24 10:05:35.181 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 1511 (http)
+2023-04-24 10:05:35.187 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-1511"]
+2023-04-24 10:05:35.187 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-04-24 10:05:35.187 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+2023-04-24 10:05:35.307 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-04-24 10:05:35.307 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 821 ms
+2023-04-24 10:05:35.408 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2023-04-24 10:05:37.220 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2023-04-24 10:05:37.978 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-1511"]
+2023-04-24 10:05:37.991 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 1511 (http) with context path ''
+2023-04-24 10:05:37.999 [main] INFO  com.agsl.onlinesheet.OnlinesheetApplication - Started OnlinesheetApplication in 3.92 seconds (JVM running for 4.685)
+2023-04-24 10:09:59.019 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2023-04-24 10:09:59.021 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2023-04-24 10:10:03.046 [main] INFO  com.agsl.onlinesheet.OnlinesheetApplication - Starting OnlinesheetApplication using Java 1.8.0_271 on Benja with PID 27280 (D:\Local\workspace-002\onlinesheet\target\classes started by Benja in D:\Local\workspace-002\onlinesheet)
+2023-04-24 10:10:03.048 [main] INFO  com.agsl.onlinesheet.OnlinesheetApplication - The following 1 profile is active: "@spring.profiles.active@"
+2023-04-24 10:10:03.735 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 1511 (http)
+2023-04-24 10:10:03.741 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-1511"]
+2023-04-24 10:10:03.741 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-04-24 10:10:03.741 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+2023-04-24 10:10:03.860 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-04-24 10:10:03.860 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 781 ms
+2023-04-24 10:10:03.954 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2023-04-24 10:10:04.006 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2023-04-24 10:10:04.019 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-04-24 10:14:08.991 [main] INFO  com.agsl.onlinesheet.OnlinesheetApplication - Starting OnlinesheetApplication using Java 1.8.0_271 on Benja with PID 5328 (D:\Local\workspace-002\onlinesheet\target\classes started by Benja in D:\Local\workspace-002\onlinesheet)
+2023-04-24 10:14:08.993 [main] INFO  com.agsl.onlinesheet.OnlinesheetApplication - The following 1 profile is active: "dev"
+2023-04-24 10:14:09.711 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 1511 (http)
+2023-04-24 10:14:09.717 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-1511"]
+2023-04-24 10:14:09.718 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-04-24 10:14:09.718 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+2023-04-24 10:14:09.834 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-04-24 10:14:09.834 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 809 ms
+2023-04-24 10:14:09.932 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2023-04-24 10:14:11.825 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2023-04-24 10:14:12.214 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-1511"]
+2023-04-24 10:14:12.224 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 1511 (http) with context path ''
+2023-04-24 10:14:12.231 [main] INFO  com.agsl.onlinesheet.OnlinesheetApplication - Started OnlinesheetApplication in 3.615 seconds (JVM running for 4.373)
+2023-04-24 10:21:19.092 [http-nio-1511-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-24 10:21:19.092 [http-nio-1511-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-04-24 10:21:19.093 [http-nio-1511-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
